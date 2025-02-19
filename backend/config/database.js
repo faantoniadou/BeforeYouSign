@@ -13,10 +13,3 @@ export function connect() {
       process.exit(1);
   })
 }
-
-// mongoose.connect('mongodb://localhost/before-you-sign', {
-// }).then(() => {
-//   console.log('Connected to MongoDB.');
-// }).catch(error => {
-//   console.error(error);
-// });

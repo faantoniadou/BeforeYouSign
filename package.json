@@ -1,6 +1,6 @@
 {
   "name": "beforeyousign",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
@@ -19,13 +19,12 @@
   },
   "homepage": "https://github.com/faantoniadou/BeforeYouSign#readme",
   "dependencies": {
-    "axios": "^1.7.9",
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "express": "^4.21.2",
     "mongoose": "^8.10.1"
   },
-  "proxy": "http://localhost:5001",
+  "proxy": "http://localhost:5050",
   "type": "module",
   "devDependencies": {
     "@types/body-parser": "^1.19.5",
