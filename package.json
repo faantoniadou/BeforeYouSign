@@ -1,0 +1,28 @@
+{
+  "name": "beforeyousign",
+  "version": "1.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faantoniadou/BeforeYouSign.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faantoniadou/BeforeYouSign/issues"
+  },
+  "homepage": "https://github.com/faantoniadou/BeforeYouSign#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1"
+  },
+  "proxy": "http://localhost:5001"
+}
