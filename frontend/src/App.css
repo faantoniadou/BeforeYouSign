@@ -1,10 +1,14 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
 .App {
   text-align: center;
 }
 
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
+  pointer-eventss: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {

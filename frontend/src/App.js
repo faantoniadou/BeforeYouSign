@@ -13,7 +13,6 @@ function App() {
       {/* <Navbar/> */}
       <Routes>
         <Route path="/" element={<Homepage />} />
-        {/* <Route path='/contactus' element={<ContactUs />}></Route> */}
       </Routes>
     </Router>
   );

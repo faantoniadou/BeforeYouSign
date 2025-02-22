@@ -4,20 +4,19 @@
   "private": true,
   "dependencies": {
     "@craco/craco": "^7.1.0",
+    "@tailwindcss/cli": "^4.0.8",
     "@tailwindcss/vite": "^4.0.7",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
     "@testing-library/user-event": "^13.5.0",
-    "autoprefixer": "^10.4.20",
     "codegen": "^0.1.0",
-    "postcss": "^8.5.3",
+    "postcss": "^7.0.39",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router": "^7.2.0",
     "react-router-dom": "^7.2.0",
     "react-scripts": "^5.0.1",
-    "tailwindcss": "^4.0.7",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -45,6 +44,7 @@
     ]
   },
   "devDependencies": {
-    "ajv": "^7.2.4"
+    "ajv": "^7.2.4",
+    "postcss": "^7.0.39"
   }
 }
