@@ -8,4 +8,6 @@ const Homepage = () => {
     );
 };
 
+console.log('Tailwind test:', window.getComputedStyle(document.body).getPropertyValue('--tw-bg-opacity'));
+
 export default Homepage;
