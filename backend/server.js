@@ -15,6 +15,13 @@ app.get("/",(req, res) => {
     })
 })
 
+app.get("/location-finder",(req, res) => {
+  return res.json({
+      success: true,
+      message: "Location Finder"
+  })
+})
+
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}.`);
 });

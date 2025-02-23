@@ -21,7 +21,6 @@
   "dependencies": {
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
-    "express": "^4.21.2",
     "mongoose": "^8.10.1"
   },
   "proxy": "http://localhost:5050",
@@ -29,6 +28,7 @@
   "devDependencies": {
     "@types/body-parser": "^1.19.5",
     "@types/cors": "^2.8.17",
-    "@types/express": "^5.0.0"
+    "@types/express": "^5.0.0",
+    "express": "^4.21.2"
   }
 }
