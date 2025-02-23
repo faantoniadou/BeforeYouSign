@@ -2,8 +2,8 @@ import React from 'react';
 
 const Homepage = () => {
     return (
-        <div>
-            <h1 className="bg-pink-200 text-black p-9">This is the location finder. put a map here</h1>
+        <div className="justify-items-center">
+            <h1 className="text-black p-9 font-sans text-3xl font-bold">Where will you be commuting?</h1>
         </div>
     );
 };
