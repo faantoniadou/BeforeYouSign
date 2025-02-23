@@ -3,7 +3,7 @@ import React from 'react';
 const Homepage = () => {
     return (
         <div>
-            <h1 className="bg-pink-500 text-black p-4">Home Page does nt</h1>
+            <h1 className="bg-pink-200 text-black p-9">Home Page; this just checks that tailwind works</h1>
         </div>
     );
 };

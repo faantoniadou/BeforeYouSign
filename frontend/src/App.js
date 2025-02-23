@@ -11,7 +11,7 @@ import './index.css';
 function App() {
   return (
     <Router>
-      {/* <Navbar/> */}
+      <Navbar/>
       <Routes>
         <Route path="/" element={<Homepage />} />
       </Routes>
