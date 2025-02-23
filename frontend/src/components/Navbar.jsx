@@ -1,5 +1,5 @@
 function Navbar() {
-  return <header className="bg-white sticky top-0 w-full shadow-md">
+  return <header className="bg-white sticky top-0 w-full shadow-sm">
        <nav className="flex justify-center py-4 space-x-5">
         <div className="absolute left-6 top-1/2 transform -translate-y-1/2">
           <img src="/long_temp_logo.png" alt="Logo" className="h-9 w-auto" />
