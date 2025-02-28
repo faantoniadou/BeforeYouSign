@@ -4,7 +4,7 @@ import LocationFinderSearchBar from '../components/LocationFinderSearchBar';
 const Homepage = () => {
     return (
         <div className="justify-items-center">
-            <h1 className="text-black p-9 text-3xl font-bold">Where will you be commuting?</h1>
+            <h1 className="text-black p-9 text-3xl font-bold">Where would you like to live?</h1>
             <LocationFinderSearchBar/>
         </div>
     );

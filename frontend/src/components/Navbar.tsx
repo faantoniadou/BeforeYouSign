@@ -1,6 +1,13 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
+  const navigate = useNavigate();
+
+  const LocationFinderClick = () => {
+    navigate('/location-finder');
+  };
+
   return <header className="bg-white sticky top-0 w-full shadow-sm">
        <nav className="flex justify-center py-4 space-x-5">
         <div className="absolute left-6 top-1/2 transform -translate-y-1/2">
@@ -8,7 +15,7 @@ const Navbar: React.FC = () => {
         </div>
         <div>
         <div className="space-x-4">
-          <button data-ref="#location-finder" type="button" className="rounded-full hover:bg-gray-100 p-2">
+          <button data-ref="#location-finder" onClick={LocationFinderClick} type="button" className="rounded-full hover:bg-gray-100 p-2">
             <span className="p-1">
               Location Finder
             </span>
