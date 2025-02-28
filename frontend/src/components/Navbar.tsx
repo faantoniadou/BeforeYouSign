@@ -4,6 +4,10 @@ import { useNavigate } from 'react-router-dom';
 const Navbar: React.FC = () => {
   const navigate = useNavigate();
 
+  const handleLogoClick = () => {
+    navigate('/');
+  };
+
   const LocationFinderClick = () => {
     navigate('/location-finder');
   };
@@ -11,7 +15,9 @@ const Navbar: React.FC = () => {
   return <header className="bg-white sticky top-0 w-full shadow-sm">
        <nav className="flex justify-center py-4 space-x-5">
         <div className="absolute left-6 top-1/2 transform -translate-y-1/2">
-          <img src="/long_temp_logo.png" alt="Logo" className="h-9 w-auto" />
+          <button onClick={handleLogoClick} className="focus:outline-none">
+            <img src="/long_temp_logo.png" alt="Logo" className="h-9 w-auto" />
+          </button>
         </div>
         <div>
         <div className="space-x-4">
