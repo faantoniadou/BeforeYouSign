@@ -23,3 +23,7 @@ export const variants = {
 };
 
 export const plugins = [];
+
+// export const corePlugins = {
+//   preflight: false
+// }

@@ -17,7 +17,7 @@ function Navbar() {
         <div className="">
           <button href="#blog" type="button" className="rounded-full hover:bg-gray-100 p-2">
             <span className="p-1">
-              Blog
+              Tips & Advice
             </span>
           </button>
         </div>
