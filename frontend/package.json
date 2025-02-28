@@ -46,7 +46,10 @@
     ]
   },
   "devDependencies": {
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
     "ajv": "^7.2.4",
-    "postcss": "^8.5.3"
+    "postcss": "^8.5.3",
+    "typescript": "^5.7.3"
   }
 }
