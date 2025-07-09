@@ -3,11 +3,11 @@ import './App.css';
 import Homepage from './pages/Homepage';
 import LocationFinder from './pages/LocationFinder';
 import Navbar from './components/Navbar';
-import {BrowserRouter as Router} from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import { Route, Routes} from "react-router";
 
-import './index.css';
 
+import './index.css';
 
 function App() {
   return (
