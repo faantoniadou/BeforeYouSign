@@ -52,12 +52,12 @@ const LocationFinderSearchBar = ({ onPlaceSelect }: LocationFinderSearchBarProps
             ref={inputRef}  // Important: Ref to the input element for Autocomplete
             type="search"
             id="default-search"
-            className="block w-full p-4 ps-10 text-lg text-gray-900 border border-gray-300 rounded-full bg-gray-50 focus:ring-accent-500 focus:border-accent-500 dark:bg-accent-700 dark:border-accent-600 dark:placeholder-accent-400 dark:focus:ring-accent-500 dark:focus:border-accent-500"
+            className="block w-full p-4 ps-10 text-lg text-gray-500 border border-gray-300 rounded-2xl bg-gray-50 focus:ring-accent-500 focus:border-accent-500 dark:bg-accent-700 dark:border-accent-600 dark:placeholder-accent-400 dark:focus:ring-accent-500 dark:focus:border-accent-500"
             placeholder="Search Location..."
             required
           />
         </div>
-        <button type="submit" className="text-white absolute end-2.5 bottom-2.5 bg-accent hover:bg-accent/ focus:ring-4 focus:outline-none focus:ring-accent font-medium rounded-full text-sm px-4 py-2 dark:bg-accent dark:hover:bg-accent dark:focus:ring-accent">
+        <button type="submit" className="text-white absolute end-2.5 bottom-3 bg-accent hover:bg-accent/ focus:ring-4 focus:outline-none focus:ring-accent font-medium rounded-xl text-sm px-4 py-2 dark:bg-accent dark:hover:bg-accent dark:focus:ring-accent">
           Search
         </button>
       </div>
