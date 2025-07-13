@@ -39,12 +39,7 @@ const LocationFinderSearchBar = ({ onPlaceSelect }: LocationFinderSearchBarProps
   }, [onPlaceSelect, selectedPlace]);
 
   return (
-    // <APIProvider
-    //       apiKey={process.env.REACT_APP_API_KEY!}
-    //       libraries={['places']}
-    //       solutionChannel='GMP_devsite_samples_v3_rgmautocomplete'>
-    // <MapControl position={ControlPosition.TOP}>
-    <form className="max-w-md mx-auto ps-10 pb-5 pt-8" onSubmit={(e) => e.preventDefault()}>
+    <form className="max-w-md mx-auto ps-10 pb-5 pt-9" onSubmit={(e) => e.preventDefault()}>
       <label htmlFor="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">
         Search
       </label>
