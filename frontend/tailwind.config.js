@@ -27,9 +27,9 @@ module.exports = {
         kumbh: ['Kumbh Sans', 'kumbh']
       },
       colors: {
-        accent: 'oklch(0.6 0.118 184.704)',
-        'mint': {
-          500: '#5CA68F',
+        accent: {
+          600: 'oklch(0.6 0.118 184.704)',
+          900: 'oklch(60% 0.118 184.704)',
         },
         'custom-accent': {
           500: '#5CA68F',

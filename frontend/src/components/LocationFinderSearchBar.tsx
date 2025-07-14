@@ -53,12 +53,12 @@ const LocationFinderSearchBar = ({ onPlaceSelect }: LocationFinderSearchBarProps
             ref={inputRef}  // Important: Ref to the input element for Autocomplete
             type="search"
             id="default-search"
-            className="block w-full p-4 ps-10 text-lg text-gray-500 border border-gray-300 rounded-2xl bg-gray-50 focus:ring-accent-500 focus:border-accent-500 dark:bg-accent-700 dark:border-accent-600 dark:placeholder-accent-400 dark:focus:ring-accent-500 dark:focus:border-accent-500"
+            className="block w-full p-4 ps-10 text-lg focus:outline-none text-gray-500 border border-gray-300 rounded-2xl bg-gray-50 focus:border-gray-300 dark:bg-white dark:border-gray-400 dark:placeholder-gray-500"
             placeholder="Search Location..."
             required
           />
         </div>
-        <button type="submit" className="absolute top-0 end-0 p-2.5 text-sm font-large h-full text-white bg-mint-500 rounded-e-2xl border border-mint-500 hover:mint-500 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-custom-accent dark:hover:bg-custom-accent-500 dark:focus:ring-blue-800">
+        <button type="submit" className="absolute top-0 end-0 p-2.5 text-sm font-large h-full text-white bg-mint-500 rounded-e-2xl border border-accent-600 hover:accent-600 focus:ring-accent-600 focus:outline-none dark:bg-accent-900 dark:hover:bg-accent-900 dark:focus:ring-custom-900">
                 <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
                 </svg>
