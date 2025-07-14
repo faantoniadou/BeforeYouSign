@@ -70,8 +70,7 @@ interface PlaceAutocompleteProps {
 const PlaceAutocomplete = ({ onPlaceSelect }: PlaceAutocompleteProps) => {
   const inputRef = useRef<HTMLInputElement>(null);
   const places = useMapsLibrary('places');
-  const [placeAutocomplete, setPlaceAutocomplete] =
-    useState<google.maps.places.Autocomplete | null>(null);
+  const [placeAutocomplete, setPlaceAutocomplete] = useState<google.maps.places.Autocomplete | null>(null);
 
   useEffect(() => {
     if (!places || !inputRef.current) return;
